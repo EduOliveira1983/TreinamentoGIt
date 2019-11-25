@@ -22,3 +22,6 @@ git merge branch_origem
 
 adicionar alterações 
 git add .
+
+verificar diferenças das branchs
+git diff branch_origem branch_destino
