@@ -1,0 +1,19 @@
+Fonte :http://gabsferreira.com/instalando-o-git-e-configurando-github/
+1 - criar chave de autorização ssh
+ssh-keygen -t rsa -b 4096 -C "email@dominio.com"
+
+2 - Adicionar a chave ao ssh-agent
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa *aqui deu erro... usei exec ssh-agent bash e fiz o comando novamente
+
+3 - Associar a chave gerada ao github
+clip < ~/.ssh/id_rsa.pub * copia a chave pra a clipboard
+
+ir até o github -> Settings e SSH and GPG keys
+clicar em add ssh key, incluir o titulo e salvar
+
+para testar
+ssh -T git@github.com
+digitar yes
+
+
