@@ -23,5 +23,8 @@ git merge branch_origem
 adicionar alterações 
 git add .
 
+excluir a branch remotamente
+git push origin --delete nome_da_branch
+
 verificar diferenças das branchs
 git diff branch_origem branch_destino
