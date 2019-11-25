@@ -13,4 +13,12 @@ git push origin branch
 adicionar o repositorio remotamente
 git remote add origin servidor
 
+apagar branch
+git branch -d nome_da_branch
 
+mesclar branch
+ir para a branch de destino (git checkout branch)
+git merge branch_origem
+
+adicionar alterações 
+git add .
