@@ -1,0 +1,16 @@
+criar branch
+git checkout -b nome_da_branch
+
+status da branch
+git status
+
+fazer um commit com comentário
+git commit -m "comentários"
+
+enviar alterações para o servidor
+git push origin branch
+
+adicionar o repositorio remotamente
+git remote add origin servidor
+
+
