@@ -1,30 +1,36 @@
-criar branch
-git checkout -b nome_da_branch
+buscar informações do servidor
+git pull
 
-status da branch
+resetar branch
+git reset --hard
+
+Status da Branch
 git status
 
-fazer um commit com comentário
+Criar Branch
+git checkout -b nome_da_branch
+
+Adicionar o repositorio remotamente
+git remote add origin servidor
+
+adicionar alterações 
+git add .
+
+Fazer um commit com comentário
 git commit -m "comentários"
 
 enviar alterações para o servidor
 git push origin branch
 
-adicionar o repositorio remotamente
-git remote add origin servidor
-
 apagar branch
 git branch -d nome_da_branch
-
-mesclar branch
-ir para a branch de destino (git checkout branch)
-git merge branch_origem
-
-adicionar alterações 
-git add .
 
 excluir a branch remotamente
 git push origin --delete nome_da_branch
 
 verificar diferenças das branchs
 git diff branch_origem branch_destino
+
+mesclar branch
+ir para a branch de destino (git checkout branch)
+git merge branch_origem
