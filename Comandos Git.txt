@@ -34,3 +34,6 @@ git diff branch_origem branch_destino
 mesclar branch
 ir para a branch de destino (git checkout branch)
 git merge branch_origem
+
+remover o remote da branch
+git remote remove origin
