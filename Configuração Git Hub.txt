@@ -7,7 +7,13 @@ ssh-agent -s
 ssh-add ~/.ssh/id_rsa *aqui deu erro... usei exec ssh-agent bash e fiz o comando novamente
 
 3 - Associar a chave gerada ao github
-clip < ~/.ssh/id_rsa.pub * copia a chave pra a clipboard
+	No Windows Usando o GitBash
+		clip < ~/.ssh/id_rsa.pub * copia a chave pra a clipboard
+	No Linux (Usei o ubuntu)
+		Instalar o xclip
+			sudo apt-get install xclip
+		Copiar a chave
+			xclip -sel clip < ~/.ssh/id_rsa.pub		
 
 ir até o github -> Settings e SSH and GPG keys
 clicar em add ssh key, incluir o titulo e salvar
