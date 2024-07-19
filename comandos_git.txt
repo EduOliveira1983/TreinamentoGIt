@@ -1,4 +1,4 @@
-buscar informa√√es do servidor
+buscar informa√√es do servidor.
 git pull
 
 resetar branch
@@ -40,3 +40,5 @@ git remote remove origin
 
 git commit --amend
 modifica o ultimo commit
+
+adicionar mais comandos aqui
