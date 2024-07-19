@@ -43,3 +43,9 @@ modifica o ultimo commit
 
 git log
 mostra o log da branch
+
+git reset --hard *id
+exclui o commit
+
+git reflog
+exibe o log, inclusive com os reset
