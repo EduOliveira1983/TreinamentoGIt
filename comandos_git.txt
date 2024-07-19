@@ -40,3 +40,6 @@ git remote remove origin
 
 git commit --amend
 modifica o ultimo commit
+
+git log
+mostra o log da branch
