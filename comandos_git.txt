@@ -1,4 +1,4 @@
-buscar informa��es do servidor.
+buscar informaçoes do servido
 git pull
 
 resetar branch
@@ -16,10 +16,10 @@ git remote add origin servidor
 adicionar alteracoes 
 git add .
 
-Fazer um commit com coment�rio
-git commit -m "coment�rios"
+Fazer um commit com comentário
+git commit -m "comentários"
 
-enviar altera�ões para o servidor
+enviar alteraÃÃµes para o servidor
 git push origin branch
 
 apagar branch
@@ -28,7 +28,7 @@ git branch -d nome_da_branch
 excluir a branch remotamente
 git push origin --delete nome_da_branch
 
-verificar diferenças das branchs
+verificar diferenÃ§as das branchs
 git diff branch_origem branch_destino
 
 mesclar branch
